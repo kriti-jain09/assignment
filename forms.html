@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<div class="form">
+<form action="">  <!--action atribute is used to specify the location where the filled data will go-->
+    <label for="usna">username:</label><!--label tag is used to connect text to the input element-->
+    <input type="text" name="usna" id="usna" required> <!--name attribute is used to give refrence to a particular input-->  
+    <!--id nd for are used to link lable nd input tag nd they should be same for a particular elemennts-->
+    <!--input tag has many types used to give boxes for filling data nd is an inline tag-->
+    <!--required attribute is used to mark mandatory fields in a form-->
+    <br>
+    <label for="pass">paaword:</label>
+    <input type="password" placeholder="password daalna hai" name="pass" id="pass">  <!--placeholder atribute is used to display a text inside the field-->
+    <br>
+    <label for="email">email:</label>
+    <input type="email" name="email" id=email>
+    <br>
+    <label for="">color:</label>
+    <input type="color">
+    <br>
+    <label for="no.">number:</label>
+    <input type="number" max="50" name="no." id="no."> 
+    <br>
+    <p>Choose favorite pet</p>
+    <input type="checkbox" name="pet" id="dog" value="dog"> <!--ckeckbox used for multiple choices-->
+    <label for="dog">Dog</label>
+    <input type="checkbox" name="pet" id="cat" value="cat"> 
+    <label for="cat">cat</label>
+    <input type="checkbox" name="pet" id="bird" value="bird"> 
+    <label for="bird">bird</label>
+    <br>
+    <p>Choose your gender</p>
+    <input type="radio" name="gender" id="male" value="male"> <!--radio used for single choice-->
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female" value="female"> 
+    <label for="cat">female</label>
+    <input type="radio" name="gender" id="other" value="other"> 
+    <label for="other">other</label>
+    <br>
+    <br>
+    <button type="reset">reset</button>
+    <!-- <input type="submit">  ye nhi krna-->
+    <button>submit</button><!--by default button tag works as submit but we can alter it using type attribute -->
+</form>
+
+<br>
+<hr>
+<form action="https://www.google.com/search">
+<input type="text" name="q">
+<button>google search</button>
+</form>
+</div>
+
+</body>
+</html>
